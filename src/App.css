@@ -27,6 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+.product-card {
+  background-color: antiquewhite;
+  padding: 3px;
+  border: 1px solid red;
+  border-radius: 5px;
+  font: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 3px;
+}
 
 @keyframes App-logo-spin {
   from {

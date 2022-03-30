@@ -1,12 +1,13 @@
 import React from "react";
+import ItemDescription from "./ItemDescription";
 
-const Product = (props) => {
+const Product = ({ name, description, price }) => {
   return (
-    <div>
-      Product
-      <h1>{props.name}</h1>
-      <h2> {props.description} </h2>
-      <h3>${props.price}</h3>
+    <div className="product-card">
+      <h1>{name}</h1>
+      <div>
+        <ItemDescription description={description} price={price} />
+      </div>
     </div>
   );
 };
